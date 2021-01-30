@@ -1,8 +1,12 @@
+$("#input").keypress(function(event) { 
+    if (event.keyCode === 13) { 
+        $("#searchBtn").click(); 
+    } 
+}); 
 
 
 
-
-$('#searchBtn').on('click', function(){
+$('#searchBtn').on('click', function searchFunc (){
 
 
 var searchTerm = $('#input').val();
