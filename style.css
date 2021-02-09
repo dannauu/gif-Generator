@@ -7,7 +7,7 @@
 }
 
 .inputField {
-    width: 600px
+    width: 400px
 }
 
 .inputField {
@@ -15,5 +15,22 @@
 }
 
 #searchBtn {
-    width: 600px;
+    width: 400px;
+    border-radius: 50px;
 }
+
+.imgStyle {
+    width: 350px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+img { 
+    border:10px solid white;
+    border-radius: 50px;
+ }
+
+ body {
+     background-color: black;
+ }
