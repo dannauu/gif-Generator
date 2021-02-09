@@ -18,6 +18,16 @@ $("#searchBtn").on("click", function () {
       img.src = ele.images.downsized.url;
       img.classList.add('imgStyle')
       document.getElementById("results").appendChild(img);
+      clearResults();
     });
   });
 });
+
+function clearResults() {
+    document.getElementById('input').addEventListener('click', function() {
+        document.getElementById('results').innerHTML = '';
+        document.getElementById('input').value = '';
+    })
+}
+
+
